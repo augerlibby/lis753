@@ -80,6 +80,14 @@ nav ul {
   border-bottom: 1px solid mediumvioletred;
 }
 
+@media all and (min-width: 376px) {
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
 nav ul li {
 
 }
